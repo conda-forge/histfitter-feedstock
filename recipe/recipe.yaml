@@ -1,5 +1,5 @@
 context:
-  version: "1.4.0"
+  version: "1.4.1"
 
 package:
   name: histfitter
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/histfitter/histfitter/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 5263032d88f7c392065e45403bbba80687c00b037632374b072afc34d83f7472
+  sha256: 887e0a5a4b1e898a11f2229494dbbd287e4d567f9f964f6aa6f0059ec4bc0b5c
   patches:
     - patches/0001-install-with-python-sitearch.patch
     - patches/0002-drop-proof.patch
